@@ -17,10 +17,10 @@ void ping_pong(int a, int b, int c, int d) {
             }
         }
     }
-    for (int i = a; i < a + 3; i++) {
+    for (int i = a; i < a + 5; i++) {
         table[i][1] = '|';
     }
-    for (int i = b; i < b + 3; i++) {
+    for (int i = b; i < b + 5; i++) {
         table[i][78] = '|';
     }
     table[d][c] = 'o';
